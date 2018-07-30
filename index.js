@@ -1,9 +1,10 @@
-const path = require('@supersoccer/path')
+const Misty = require('@supersoccer/misty')
+const { basepath } = Misty.Path
 
 class Template {
   load (template) {
     template = `${template.replace(/\.marko$/, '')}.marko`
-    return require(path.basepath.containers(template))
+    return require(basepath.containers(template))
   }
 }
 
