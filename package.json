@@ -1,11 +1,11 @@
 {
   "name": "@supersoccer/template",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "index.js",
   "repository": "https://github.com/supersoccer/node-template",
   "author": "hkyo89 <hkyo89@yahoo.co.jp>",
   "license": "MIT",
   "dependencies": {
-    "@supersoccer/path": "^1.1.0"
+    "@supersoccer/misty": "^1.0.1"
   }
 }
